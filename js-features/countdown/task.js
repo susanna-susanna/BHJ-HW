@@ -8,3 +8,5 @@ setTimeout(function() {
   clearInterval(timerId);
   alert( 'You win' );
 }, ((Number(timer.textContent) + 1) * 1000));
+
+timer.onclick = setTimeout;
