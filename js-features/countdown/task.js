@@ -9,4 +9,4 @@ setTimeout(function() {
   alert( 'You win' );
 }, ((Number(timer.textContent) + 1) * 1000));
 
-timer.onclick = setTimeout;
+//timer.onclick = setTimeout;

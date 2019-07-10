@@ -1,8 +1,9 @@
 let cookieCount = document.getElementById("clicker__counter");
+let cookie = document.getElementById("cookie");
 
 function changeSize() {
-   let element = document.getElementById("cookie");
-   element.classList.toggle("mystyle");
+   cookie.classList.toggle("mystyle");
    cookieCount.textContent++;
 }
 
+cookie.onclick = changeSize;
